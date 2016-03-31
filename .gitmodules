@@ -1,0 +1,4 @@
+[submodule "pts"]
+	path = pts
+	url = https://github.com/jgartrel/phoronix-test-suite.git
+	branch = af
