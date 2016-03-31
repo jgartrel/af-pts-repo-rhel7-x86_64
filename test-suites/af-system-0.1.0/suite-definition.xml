@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v3.0.0a3 (Iveland) [ http://www.phoronix-test-suite.com/ ]-->
+<PhoronixTestSuite>
+  <SuiteInformation>
+    <Title>AF Linux System</Title>
+    <Version>0.1.0</Version>
+    <TestType>System</TestType>
+    <Description>A collection of tests designed to test the overall performance of a hosted server</Description>
+    <Maintainer>James Gartrell</Maintainer>
+  </SuiteInformation>
+  <Execute>
+    <Test>local/af_speedtest</Test>
+  </Execute>
+  <Execute>
+    <Test>local/af_openssl</Test>
+  </Execute>
+</PhoronixTestSuite>
