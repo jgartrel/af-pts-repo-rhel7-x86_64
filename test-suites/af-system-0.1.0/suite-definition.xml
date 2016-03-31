@@ -10,8 +10,10 @@
   </SuiteInformation>
   <Execute>
     <Test>local/af_speedtest-0.1.0</Test>
+    <Mode>BATCH</Mode>
   </Execute>
   <Execute>
     <Test>local/af_openssl-1.9.0</Test>
+    <Mode>BATCH</Mode>
   </Execute>
 </PhoronixTestSuite>
