@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v5.0.1 (Khanino)-->
+<PhoronixTestSuite>
+  <ResultsParser>
+    <OutputTemplate>aes-128 cbc     103418.74k   112546.03k   106692.99k   #_RESULT_#   292323.33k</OutputTemplate>
+    <StripResultPostfix>k</StripResultPostfix>
+    <LineBeforeHint>compiler: gcc</LineBeforeHint>
+  </ResultsParser>
+</PhoronixTestSuite>
