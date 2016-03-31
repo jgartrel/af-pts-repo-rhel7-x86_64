@@ -6,7 +6,7 @@ Getting started with benchmarking:
 ```
 yum install -y gcc gcc-c++ make autoconf automake glibc-static patch
 yum install -y git
-yum install -y php-cli php-xml bzip2
+yum install -y php-cli php-xml bzip2 time numactl-devel
 
 git clone https://github.com/jgartrel/phoronix-test-suite.git
 cd phoronix-test-suite
