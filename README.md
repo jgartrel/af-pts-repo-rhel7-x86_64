@@ -15,9 +15,8 @@ git clone https://github.com/jgartrel/af-pts-repo.git .phoronix-test-suite
 git clone https://github.com/jgartrel/phoronix-test-suite.git
 cd phoronix-test-suite
 git checkout af
+./phoronix-test-suite enterprise-setup
 ./phoronix-test-suite detailed-system-info
-
-./phoronix-test-suite batch-setup
 
 ./phoronix-test-suite install local/af-system-0.1.0
 
