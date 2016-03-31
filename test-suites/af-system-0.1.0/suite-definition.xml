@@ -9,6 +9,22 @@
     <Maintainer>James Gartrell</Maintainer>
   </SuiteInformation>
   <Execute>
+    <Test>pts/cyclictest</Test>
+    <Mode>BATCH</Mode>
+  </Execute>
+  <Execute>
+    <Test>pts/iozone</Test>
+    <Mode>BATCH</Mode>
+  </Execute>
+  <Execute>
+    <Test>pts/byte</Test>
+    <Mode>BATCH</Mode>
+  </Execute>
+  <Execute>
+    <Test>pts/stream</Test>
+    <Mode>BATCH</Mode>
+  </Execute>
+  <Execute>
     <Test>local/af_speedtest-0.1.0</Test>
     <Mode>BATCH</Mode>
   </Execute>
