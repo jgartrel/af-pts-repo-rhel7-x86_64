@@ -2,7 +2,18 @@
 
 This repo exists to store local test profiles for Phoronix Test Suite
 
-Getting started with benchmarking:
+Getting started with benchmarking on Vagrant (easier):
+```
+vagrant up --provider virtualbox
+vagrant ssh
+```
+```
+cd ~/.phoronix-test-suite/pts
+
+TEST_RESULTS_IDENTIFIER=$HOSTNAME-baseline TEST_RESULTS_NAME=$HOSTNAME-baseline MONITOR=all ./phoronix-test-suite batch-run pts/stream local/af_speedtest local/af_openssl
+```
+
+Getting started with benchmarking on generic CentOS 7 hosted instance:
 ```
 yum install -y gcc gcc-c++ make autoconf automake glibc-static patch
 yum install -y git
