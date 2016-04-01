@@ -11,10 +11,9 @@ yum install -y php-cli php-xml bzip2 time numactl-devel
 adduser pts
 su - pts
 
-git clone https://github.com/jgartrel/af-pts-repo.git .phoronix-test-suite
-git clone https://github.com/jgartrel/phoronix-test-suite.git
-cd phoronix-test-suite
-git checkout af
+git clone --recursive https://github.com/jgartrel/af-pts-repo.git .phoronix-test-suite
+cd ~/.phoronix-test-suite/pts
+
 ./phoronix-test-suite enterprise-setup
 ./phoronix-test-suite detailed-system-info
 
