@@ -12,12 +12,7 @@ cd ~
 cat <<'EOF'
 #!/bin/sh
 
-OPT=
-if [ "$1" == "-evp" ];then
-  OPT=$1
-fi
-
-./openssl-1.0.1g/apps/openssl speed $OPT aes-128-cbc -multi $NUM_CPU_CORES > $LOG_FILE 2>&1
+./openssl-1.0.1g/apps/openssl $@ > $LOG_FILE 2>&1
 echo $? > ~/test-exit-status
 
 EOF

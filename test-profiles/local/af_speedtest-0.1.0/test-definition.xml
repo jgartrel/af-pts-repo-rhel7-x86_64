@@ -3,7 +3,7 @@
 <PhoronixTestSuite>
   <TestInformation>
     <Title>AF_Speedtest</Title>
-    <AppVersion>1.0.1g</AppVersion>
+    <AppVersion>0.3.4</AppVersion>
     <Description>This is an implementation of https://github.com/sivel/speedtest-cli for Phoronix Test Suite to measure HTTP upload and download speeds</Description>
     <ResultScale>Mbits per second</ResultScale>
     <Proportion>HIB</Proportion>

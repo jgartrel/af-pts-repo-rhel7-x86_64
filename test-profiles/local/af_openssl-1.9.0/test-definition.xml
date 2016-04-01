@@ -32,11 +32,11 @@
       <Menu>
         <Entry>
           <Name>Standard</Name>
-          <Value>-std</Value>
+          <Value>speed aes-128-cbc -multi $NUM_CPU_CORES</Value>
         </Entry>
         <Entry>
           <Name>AES-NI (using EVP)</Name>
-          <Value>-evp</Value>
+          <Value>speed -evp aes-128-cbc -multi $NUM_CPU_CORES</Value>
         </Entry>
       </Menu>
     </Option>

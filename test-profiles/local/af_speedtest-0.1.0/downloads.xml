@@ -3,7 +3,7 @@
 <PhoronixTestSuite>
   <Downloads>
     <Package>
-      <URL>https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest_cli.py</URL>
+      <URL>https://raw.githubusercontent.com/sivel/speedtest-cli/v0.3.4/speedtest_cli.py</URL>
       <MD5>04c54e0f489ba5fad77a0fe379aa20fc</MD5>
       <SHA256>b0fbdb3c635ef646cb652a39146240b3bf984df401d3a9421e305aa785817f5a</SHA256>
       <FileSize>24994</FileSize>
