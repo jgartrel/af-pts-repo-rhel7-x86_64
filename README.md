@@ -6,10 +6,8 @@ Getting started with benchmarking on Vagrant (easier):
 ```
 vagrant up --provider virtualbox
 vagrant ssh
-```
-```
-cd ~/.phoronix-test-suite/pts
 
+cd ~/.phoronix-test-suite/pts
 TEST_RESULTS_IDENTIFIER=$HOSTNAME-baseline TEST_RESULTS_NAME=$HOSTNAME-baseline MONITOR=all ./phoronix-test-suite batch-run pts/stream local/af_speedtest local/af_openssl
 ```
 
