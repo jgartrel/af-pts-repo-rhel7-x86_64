@@ -7,7 +7,7 @@
 # you're doing.
 Vagrant.configure(2) do |config|
 
-  config.vm.box = "centos/7"
+  config.vm.box = "geerlingguy/centos7"
   config.vm.hostname = "vagrant-dev"
 
   config.vm.provider "virtualbox" do |vb|
@@ -24,7 +24,7 @@ Vagrant.configure(2) do |config|
 
   # Execute the folling commands as 'vagrant' user
   config.vm.provision "shell", privileged: false, inline: <<-SHELL
-    git clone --recursive https://github.com/jgartrel/af-pts-repo.git ~/.phoronix-test-suite
+    ln -s /vagrant ~/.phoronix-test-suite
     cd ~/.phoronix-test-suite/pts
     ./phoronix-test-suite enterprise-setup
     ./phoronix-test-suite detailed-system-info
