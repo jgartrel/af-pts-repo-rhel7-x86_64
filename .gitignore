@@ -1,1 +1,16 @@
-.vagrant
+# Ignore Vagrant Directories
+.vagrant/
+
+# Ignore Phoronix Test Suite Files and Directories
+core.pt2so
+temp.pt2so
+graph-config.json
+download-cache/
+installed-tests/
+modules-data/
+modules/
+openbenchmarking.org/
+test-profiles/pts/
+test-suites/pts/
+test-results/
+xsl/
