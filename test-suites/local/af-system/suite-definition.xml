@@ -9,6 +9,10 @@
     <Maintainer>James Gartrell</Maintainer>
   </SuiteInformation>
   <Execute>
+    <Test>pts/scimark2</Test>
+    <Mode>BATCH</Mode>
+  </Execute>
+  <Execute>
     <Test>pts/iozone</Test>
     <Mode>BATCH</Mode>
   </Execute>
