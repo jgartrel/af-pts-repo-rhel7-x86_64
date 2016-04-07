@@ -19,7 +19,7 @@ Vagrant.configure(2) do |config|
   config.vm.provision "shell", inline: <<-SHELL
     yum install -y gcc gcc-c++ make autoconf automake glibc-static patch
     yum install -y git
-    yum install -y php-cli php-xml bzip2 time numactl-devel
+    yum install -y php-cli php-xml bzip2
   SHELL
 
   # Execute the folling commands as 'vagrant' user
