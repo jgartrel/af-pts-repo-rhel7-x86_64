@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v5.0.1 (Khanino)-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>https://github.com/koct9i/ioping/releases/download/v0.9/ioping-0.9.tar.gz</URL>
+      <MD5>93eb6cee84ab54f9c2a3395f64c8c218</MD5>
+      <FileSize>23695</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>

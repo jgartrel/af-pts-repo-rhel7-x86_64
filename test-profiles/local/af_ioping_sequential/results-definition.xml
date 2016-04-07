@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v5.0.1 (Khanino)-->
+<PhoronixTestSuite>
+  <ResultsParser>
+    <OutputTemplate>6222 2878543 2162 #_RESULT_# 389 463 1480 76</OutputTemplate>
+  </ResultsParser>
+</PhoronixTestSuite>

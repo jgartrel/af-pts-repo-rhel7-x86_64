@@ -21,6 +21,14 @@
     <Mode>BATCH</Mode>
   </Execute>
   <Execute>
+    <Test>local/af_ioping_seek</Test>
+    <Mode>BATCH</Mode>
+  </Execute>
+  <Execute>
+    <Test>local/af_ioping_sequential</Test>
+    <Mode>BATCH</Mode>
+  </Execute>
+  <Execute>
     <Test>local/af_network_loopback</Test>
     <Mode>BATCH</Mode>
   </Execute>
