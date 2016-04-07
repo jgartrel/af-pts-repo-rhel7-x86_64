@@ -21,6 +21,10 @@
     <Mode>BATCH</Mode>
   </Execute>
   <Execute>
+    <Test>local/af_network_loopback</Test>
+    <Mode>BATCH</Mode>
+  </Execute>
+  <Execute>
     <Test>local/af_ping</Test>
     <Mode>BATCH</Mode>
   </Execute>
