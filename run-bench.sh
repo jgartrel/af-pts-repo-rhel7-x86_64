@@ -17,7 +17,7 @@ RESULTS_DIR=${SCRIPT_PATH}/test-results/${TEST_RESULTS_NAME}
 RUN_LOG=${SCRIPT_PATH}/test-results/${TEST_RESULTS_NAME}.log
 
 # Run the benchmark suite
-${PTS} enterprise-setup
+${PTS} enterprise-setup > /dev/null
 ${PTS} detailed-system-info > ${RUN_LOG} 2>&1
 ${PTS} batch-run local/af-system >> ${RUN_LOG} 2>&1
 cd ${RESULTS_DIR}/..
