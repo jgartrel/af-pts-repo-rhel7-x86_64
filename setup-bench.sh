@@ -7,7 +7,7 @@ yum install -y git php-cli php-xml bzip2 unzip nmap-netcat libtool
 adduser pts
 
 # Clone the benchmarking repo
-su -c "git clone --recursive https://github.com/jgartrel/af-pts-repo-rhel7-x86_64.git .phoronix-test-suite2" -l pts
+su -c "git clone --recursive https://github.com/jgartrel/af-pts-repo-rhel7-x86_64.git .phoronix-test-suite" -l pts
 
 # Create crontab to run test every hour
 (
