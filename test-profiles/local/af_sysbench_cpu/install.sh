@@ -7,6 +7,7 @@ cd sysbench-0.5
 make && cp -p sysbench/sysbench ~/sysbench
 echo $? > ~/install-exit-status
 rm -rf ~/sysbench-0.5
+cd ~
 
 (
 cat <<'EOF'

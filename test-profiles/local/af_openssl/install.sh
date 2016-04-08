@@ -7,6 +7,7 @@ cd openssl-1.0.1g/
 make && cp -p apps/openssl ~/openssl
 echo $? > ~/install-exit-status
 rm -rf ~/openssl-1.0.1g
+cd ~
 
 (
 cat <<'EOF'
