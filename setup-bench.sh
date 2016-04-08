@@ -12,7 +12,7 @@ su -c "git clone --recursive https://github.com/jgartrel/af-pts-repo-rhel7-x86_6
 # Create crontab to run test every hour
 (
 cat <<'EOF'
-1 * * * * /home/pts/.phoronix-test-suite/run-bench.sh
+5 * * * * /home/pts/.phoronix-test-suite/run-bench.sh
 EOF
 ) > /var/spool/cron/pts
 
