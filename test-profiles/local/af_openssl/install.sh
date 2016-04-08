@@ -6,8 +6,7 @@ cd openssl-1.0.1g/
 ./config no-zlib
 make && cp -p apps/openssl ~/openssl
 echo $? > ~/install-exit-status
-cd ~
-rm -rf openssl-1.0.1g.tar.gz openssl-1.0.1g
+rm -rf ~/openssl-1.0.1g
 
 (
 cat <<'EOF'

@@ -1,8 +1,7 @@
 #!/bin/sh
 
 chmod a+x speedtest_cli.py
-echo \$? > ~/install-exit-status
-cd ~
+echo $? > ~/install-exit-status
 
 (
 cat <<'EOF'

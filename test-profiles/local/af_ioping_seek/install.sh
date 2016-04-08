@@ -5,8 +5,7 @@ tar -zxvf ioping-0.9.tar.gz
 cd ioping-0.9
 make && cp -p ioping ~/ioping
 echo $? > ~/install-exit-status
-cd ~
-rm -rf ioping-0.9 ioping-0.9.tar.gz
+rm -rf ~/ioping-0.9
 
 (
 cat <<'EOF'

@@ -6,8 +6,7 @@ cd sysbench-0.5
 ./configure --without-mysql
 make && cp -p sysbench/sysbench ~/sysbench
 echo $? > ~/install-exit-status
-cd ~
-rm -rf sysbench-0.5 0.5.zip
+rm -rf ~/sysbench-0.5
 
 (
 cat <<'EOF'
