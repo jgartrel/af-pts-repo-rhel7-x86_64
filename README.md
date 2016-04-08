@@ -15,7 +15,7 @@ Getting started with benchmarking on generic CentOS 7 hosted instance:
 ```
 yum install -y gcc gcc-c++ make autoconf automake glibc-static patch
 yum install -y git
-yum install -y php-cli php-xml bzip2 unzip nmap-netcat libtool
+yum install -y php-cli php-xml bzip2 unzip nmap-ncat libtool
 
 adduser pts
 su - pts
