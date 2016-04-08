@@ -1,0 +1,5 @@
+#!/bin/sh
+
+./openssl $@ > $LOG_FILE 2>&1
+echo $? > ~/test-exit-status
+

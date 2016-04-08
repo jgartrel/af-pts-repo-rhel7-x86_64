@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v6.2.1-->
+<?xml-stylesheet type="text/xsl" href="file:///home/vagrant/.phoronix-test-suite/xsl/pts-test-installation-viewer.xsl"?>
+<PhoronixTestSuite>
+  <TestInstallation>
+    <Environment>
+      <Identifier>local/af_sysbench_cpu</Identifier>
+      <Version>0.1.0</Version>
+      <CheckSum>d05510c9d83685af2c57c29a1b264158</CheckSum>
+      <CompilerData>{"compiler-type":"CC","compiler":"gcc","compiler-options":"-funroll-loops -pthread -O2 -ggdb3 -ldl -lm"}</CompilerData>
+      <InstallFootnote></InstallFootnote>
+      <SystemIdentifier>SW50ZWwgQ29yZSBpNy0zNzQwUU1fX0NlbnRPUyBMaW51eCA3X19HQ0MgNC44LjUgMjAxNTA2MjNfXw==</SystemIdentifier>
+    </Environment>
+    <History>
+      <InstallTime>2016-04-08 15:44:10</InstallTime>
+      <InstallTimeLength>27</InstallTimeLength>
+      <LastRunTime>2016-04-08 16:16:16</LastRunTime>
+      <TimesRun>2</TimesRun>
+      <AverageRunTime>38</AverageRunTime>
+      <LatestRunTime>37</LatestRunTime>
+    </History>
+  </TestInstallation>
+</PhoronixTestSuite>

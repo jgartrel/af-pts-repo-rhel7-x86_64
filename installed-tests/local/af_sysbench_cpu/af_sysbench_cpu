@@ -1,0 +1,5 @@
+#!/bin/sh
+
+./sysbench --num-threads=$NUM_CPU_CORES $@ > $LOG_FILE 2>&1
+echo $? > ~/test-exit-status
+

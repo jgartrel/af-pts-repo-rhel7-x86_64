@@ -1,0 +1,5 @@
+#!/bin/sh
+
+./speedtest_cli.py --simple > $LOG_FILE 2>&1
+echo $? > ~/test-exit-status
+

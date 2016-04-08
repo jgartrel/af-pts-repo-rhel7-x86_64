@@ -1,0 +1,4 @@
+#!/bin/sh
+export OMP_NUM_THREADS=$NUM_CPU_CORES
+./stream-bin > $LOG_FILE 2>&1
+echo $? > ~/test-exit-status

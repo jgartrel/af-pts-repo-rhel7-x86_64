@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v6.2.1-->
+<?xml-stylesheet type="text/xsl" href="file:///home/vagrant/.phoronix-test-suite/xsl/pts-test-installation-viewer.xsl"?>
+<PhoronixTestSuite>
+  <TestInstallation>
+    <Environment>
+      <Identifier>local/af_ioping_sequential</Identifier>
+      <Version>0.1.0</Version>
+      <CheckSum>f489bfd173918922f495cff12f5a35bc</CheckSum>
+      <CompilerData>{"compiler-type":"CC","compiler":"gcc","compiler-options":"-std=gnu99 -pedantic -O2 -funroll-loops -ftree-vectorize -lm"}</CompilerData>
+      <InstallFootnote></InstallFootnote>
+      <SystemIdentifier>SW50ZWwgQ29yZSBpNy0zNzQwUU1fX0NlbnRPUyBMaW51eCA3X19HQ0MgNC44LjUgMjAxNTA2MjNfXw==</SystemIdentifier>
+    </Environment>
+    <History>
+      <InstallTime>2016-04-08 15:44:11</InstallTime>
+      <InstallTimeLength>1</InstallTimeLength>
+      <LastRunTime>2016-04-08 16:17:44</LastRunTime>
+      <TimesRun>2</TimesRun>
+      <AverageRunTime>24</AverageRunTime>
+      <LatestRunTime>24</LatestRunTime>
+    </History>
+  </TestInstallation>
+</PhoronixTestSuite>

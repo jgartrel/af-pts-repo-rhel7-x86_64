@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v6.2.1-->
+<?xml-stylesheet type="text/xsl" href="file:///home/vagrant/.phoronix-test-suite/xsl/pts-test-installation-viewer.xsl"?>
+<PhoronixTestSuite>
+  <TestInstallation>
+    <Environment>
+      <Identifier>local/af_ping</Identifier>
+      <Version>0.1.0</Version>
+      <CheckSum>0fd0aacb1550c5a65519977afa6aa4e9</CheckSum>
+      <CompilerData>false</CompilerData>
+      <InstallFootnote></InstallFootnote>
+      <SystemIdentifier>SW50ZWwgQ29yZSBpNy0zNzQwUU1fX0NlbnRPUyBMaW51eCA3X19HQ0MgNC44LjUgMjAxNTA2MjNfXw==</SystemIdentifier>
+    </Environment>
+    <History>
+      <InstallTime>2016-04-08 15:44:11</InstallTime>
+      <InstallTimeLength>1</InstallTimeLength>
+      <LastRunTime>2016-04-08 16:20:53</LastRunTime>
+      <TimesRun>2</TimesRun>
+      <AverageRunTime>28</AverageRunTime>
+      <LatestRunTime>28</LatestRunTime>
+    </History>
+  </TestInstallation>
+</PhoronixTestSuite>

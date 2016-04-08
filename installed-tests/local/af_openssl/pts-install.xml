@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v6.2.1-->
+<?xml-stylesheet type="text/xsl" href="file:///home/vagrant/.phoronix-test-suite/xsl/pts-test-installation-viewer.xsl"?>
+<PhoronixTestSuite>
+  <TestInstallation>
+    <Environment>
+      <Identifier>local/af_openssl</Identifier>
+      <Version>1.9.0</Version>
+      <CheckSum>f0f3088eac3df65a78d9ce817cd4e6ad</CheckSum>
+      <CompilerData>{"compiler-type":"CC","compiler":"gcc","compiler-options":"-m64 -O3 -lssl -lcrypto -ldl"}</CompilerData>
+      <InstallFootnote></InstallFootnote>
+      <SystemIdentifier>SW50ZWwgQ29yZSBpNy0zNzQwUU1fX0NlbnRPUyBMaW51eCA3X19HQ0MgNC44LjUgMjAxNTA2MjNfXw==</SystemIdentifier>
+    </Environment>
+    <History>
+      <InstallTime>2016-04-08 15:47:23</InstallTime>
+      <InstallTimeLength>188</InstallTimeLength>
+      <LastRunTime>2016-04-08 16:30:25</LastRunTime>
+      <TimesRun>2</TimesRun>
+      <AverageRunTime>91</AverageRunTime>
+      <LatestRunTime>90</LatestRunTime>
+    </History>
+  </TestInstallation>
+</PhoronixTestSuite>

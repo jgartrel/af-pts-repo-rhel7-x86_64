@@ -1,0 +1,10 @@
+ioping-0.9/version
+ioping-0.9/ioping.c
+ioping-0.9/ioping.1
+ioping-0.9/README
+ioping-0.9/LICENSE
+ioping-0.9/changelog
+ioping-0.9/ioping.spec
+ioping-0.9/Makefile
+cc -std=gnu99 -g -Wall -Wextra -pedantic -O2 -funroll-loops -ftree-vectorize -DVERSION=\"0.9\" -c -o ioping.o ioping.c
+cc -o ioping ioping.o -std=gnu99 -g -Wall -Wextra -pedantic -O2 -funroll-loops -ftree-vectorize  -lm
