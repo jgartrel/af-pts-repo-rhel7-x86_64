@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v5.0.1 (Khanino)-->
+<PhoronixTestSuite>
+  <TestInformation>
+    <Title>AF_sysbench_cpu</Title>
+    <AppVersion>0.5.0</AppVersion>
+    <Description>This test computes all the prime numbers to a specified number to bench mark CPU integer performance.</Description>
+    <ResultScale>seconds</ResultScale>
+    <Proportion>LIB</Proportion>
+    <SubTitle>CPU performance benchmark</SubTitle>
+    <TimesToRun>3</TimesToRun>
+  </TestInformation>
+  <TestProfile>
+    <Version>0.1.0</Version>
+    <SupportedPlatforms>Linux, Solaris, BSD, MacOSX</SupportedPlatforms>
+    <SoftwareType>Utility</SoftwareType>
+    <TestType>Network</TestType>
+    <License>Free</License>
+    <Status>Verified</Status>
+    <ExternalDependencies>build-utilities</ExternalDependencies>
+    <EnvironmentSize>2</EnvironmentSize>
+    <ProjectURL></ProjectURL>
+    <Maintainer>James Gartrell</Maintainer>
+  </TestProfile>
+  <TestSettings>
+    <Default>
+      <AllowCacheShare>FALSE</AllowCacheShare>
+    </Default>
+    <Option>
+      <DisplayName>Type</DisplayName>
+      <Identifier>run-type</Identifier>
+      <Menu>
+        <Entry>
+          <Name>Max Prime Number 20000</Name>
+          <Value>--test=cpu --cpu-max-prime=20000 run</Value>
+        </Entry>
+      </Menu>
+    </Option>
+  </TestSettings>
+</PhoronixTestSuite>

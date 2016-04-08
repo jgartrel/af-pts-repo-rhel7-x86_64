@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v5.0.1 (Khanino)-->
+<PhoronixTestSuite>
+  <ResultsParser>
+    <OutputTemplate>    total time:                          #_RESULT_#</OutputTemplate>
+    <LineHint>    total time:</LineHint>
+    <StripResultPostfix>s</StripResultPostfix>
+  </ResultsParser>
+</PhoronixTestSuite>

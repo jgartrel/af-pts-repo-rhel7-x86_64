@@ -17,6 +17,10 @@
     <Mode>BATCH</Mode>
   </Execute>
   <Execute>
+    <Test>local/af_sysbench_cpu</Test>
+    <Mode>BATCH</Mode>
+  </Execute>
+  <Execute>
     <Test>local/af_ioping_seek</Test>
     <Mode>BATCH</Mode>
   </Execute>

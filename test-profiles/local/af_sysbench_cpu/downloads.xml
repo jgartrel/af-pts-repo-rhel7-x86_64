@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v5.0.1 (Khanino)-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>https://github.com/akopytov/sysbench/archive/0.5.zip</URL>
+      <MD5>706af609f992d181dc374fb70952c7ed</MD5>
+      <FileSize>358077</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
