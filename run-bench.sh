@@ -7,8 +7,8 @@ PID=$$
 NOW=$(date -u +"%Y-%m-%d-%H%M")
 
 # Phoronix Specific Settings
-export TEST_RESULTS_IDENTIFIER=${HOSTNAME}-baseline
-export TEST_RESULTS_NAME=${TEST_RESULTS_IDENTIFIER}-${NOW}
+export TEST_RESULTS_IDENTIFIER=${HOSTNAME}-baseline-${NOW}
+export TEST_RESULTS_NAME=${TEST_RESULTS_IDENTIFIER}
 export MONITOR=all
 
 # Establish some run time variables
