@@ -38,6 +38,26 @@
           <Name>www.facebook.com</Name>
           <Value>-c 10 www.facebook.com</Value>
         </Entry>
+        <Entry>
+          <Name>sping-sj.anchorfree.net</Name>
+          <Value>-c 10 sping-sj.anchorfree.net</Value>
+        </Entry>
+        <Entry>
+          <Name>sping-ny.anchorfree.net</Name>
+          <Value>-c 10 sping-ny.anchorfree.net</Value>
+        </Entry>
+        <Entry>
+          <Name>sping-frk.anchorfree.net</Name>
+          <Value>-c 10 sping-frk.anchorfree.net</Value>
+        </Entry>
+        <Entry>
+          <Name>sping-miami.anchorfree.net</Name>
+          <Value>-c 10 sping-miami.anchorfree.net</Value>
+        </Entry>
+        <Entry>
+          <Name>sping-zur.anchorfree.net</Name>
+          <Value>-c 10 sping-zur.anchorfree.net</Value>
+        </Entry>
       </Menu>
     </Option>
   </TestSettings>
