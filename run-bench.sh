@@ -18,7 +18,8 @@ upload_results () {
     -H "Date: ${dateValue}" \
     -H "Content-Type: ${contentType}" \
     -H "Authorization: AWS ${s3Key}:${signature}" \
-        https://${bucket}.s3.amazonaws.com/test-results/${file}
+        https://${bucket}.s3.amazonaws.com/test-results/${file} && \
+  rm -f "${file}"
 }
 
 
@@ -46,4 +47,4 @@ cd ${RESULTS_DIR}/..
 tar -czf ${TEST_RESULTS_NAME}.tgz ${TEST_RESULTS_NAME}.log ${TEST_RESULTS_NAME}
 
 # Upload to S3
-upload_results ${TEST_RESULTS_NAME}.tgz
+upload_results ${TEST_RESULTS_NAME}.tgz && rm -rf "${TEST_RESULTS_NAME}"
